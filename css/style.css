@@ -18,6 +18,15 @@ body {
     line-height: 1.71;
 }
 
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
 /*header*/
 .header{
     font-weight: 500;
