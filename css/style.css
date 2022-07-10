@@ -56,8 +56,8 @@ img{
 }
 
 .section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 
   .card-set {
@@ -96,7 +96,8 @@ img{
 /*logo*/ 
 
 .logo { 
-    margin-right: 93px;
+    
+
     padding-top: 24px;
     padding-bottom: 25px;
 
@@ -106,6 +107,11 @@ img{
     font-size: 26px;
     line-height:1.2;
     text-decoration: none;
+}
+
+.header
+.logo{
+    margin-right: 93px;
 }
 
 .logo:hover,.logo:focus {
@@ -164,7 +170,16 @@ img{
 
 /*Button*/
 
+.filter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+}
 
 .filter-button{
     cursor: pointer;
@@ -180,6 +195,7 @@ img{
     background-color: var(--blue-color);
     color: var(--white-color);
     }
+
 
 /*Hero*/
 
@@ -282,6 +298,11 @@ img{
 
 /* section portfolio*/
 
+.portfolio-set{
+    --card-gap: 30px;
+    --card-item: 3;
+}
+
 .portfolio-title{
     font-weight: 700;
     font-size: 18px;
@@ -300,7 +321,23 @@ img{
 /*footer*/
 
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background:var(--footer-color);
+}
+
+.footer
+.logo{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
 }
 
 .footer:hover, .footer:focus {
