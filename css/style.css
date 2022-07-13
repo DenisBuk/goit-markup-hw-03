@@ -358,6 +358,10 @@ img{
     color: var(--primary-color);
 }
 
+.web:hover, .web:focus{
+    color: var(--white-color);
+}
+
 /*address*/
 
 .address{
